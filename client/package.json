@@ -1,0 +1,25 @@
+{
+  "name": "stormlink-client",
+  "version": "1.0.0",
+  "private": true,
+  "description": "StormLink dashboard — Next.js + TailwindCSS + Framer Motion frontend.",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 -p 3000",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^11.3.19",
+    "gsap": "^3.12.5",
+    "next": "^14.2.32",
+    "next-auth": "^4.24.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7"
+  }
+}

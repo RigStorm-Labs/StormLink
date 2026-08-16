@@ -1,0 +1,19 @@
+{
+  "name": "stormlink",
+  "version": "1.0.0",
+  "private": true,
+  "description": "StormLink — centralized dashboard for RigStorm companies: project tracking, workflows, products and company-wide communication.",
+  "type": "module",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev": "node scripts/dev.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "node scripts/dev.js",
+    "seed": "npm --prefix server run seed"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
