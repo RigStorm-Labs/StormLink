@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Runtime data (in-memory store persistence)
+server/data/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs & misc
+*.log
+.DS_Store
+.vercel
